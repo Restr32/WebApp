@@ -17,10 +17,7 @@
           <PrivateAssets>all</PrivateAssets>
           <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="Controllers\" />
+        <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="10.1.7" />
     </ItemGroup>
 
 </Project>
